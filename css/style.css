@@ -225,6 +225,29 @@ button:focus {
   height: 100%;
   width: 100%; }
 
+
+@media (max-width: 768px) {
+    .home_banner_area .banner_content h1 {
+        font-size: 1.8rem; /* Reduce heading size */
+        line-height: 2.2rem;
+    }
+    .home_banner_area .banner_content h5 {
+        font-size: 1rem; /* Adjust subtitle size */
+        line-height: 1.5rem;
+    }
+    .home_banner_area .primary_btn {
+        font-size: 0.9rem; /* Resize button text */
+        padding: 8px 20px; /* Adjust button size */
+    }
+    .home_right_img img {
+        width: 70%; /* Adjust image size for smaller screens */
+        margin: 0 auto; /* Center image */
+    }
+    .banner_inner {
+        padding: 20px 15px; /* Add padding for smaller devices */
+    }
+}
+
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .header_area {
